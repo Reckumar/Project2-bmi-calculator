@@ -22,7 +22,7 @@ else{
   if(bmi < 18.6){
     results.innerHTML = `${bmi} <br/> Under Weight`;
   }
-  else if(bmi <= 18.6 || bmi <= 24.9){
+  else if(bmi >= 18.6 && bmi <= 24.9){
     results.innerHTML = `${bmi} <br/> Normal Range`;
   }
   else if(bmi > 24.9){
